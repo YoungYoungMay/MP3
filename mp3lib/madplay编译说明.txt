@@ -1,0 +1,27 @@
+﻿一、准备
+移植Madplay所需要的四个软件包
+libid3tag-0.15.1b.tar.gz
+libmad-0.15.1b.tar.gz
+zlib-1.1.4.tar.gz
+madplay-0.15.2b.tar.gz
+
+二、解压
+mkdir /mp3 建立MP3目录
+分别解压上面几个文件
+  tar -xzvf
+
+三、编译zlib
+cd /mp3/zlib-1.1.4
+./configure
+make
+make install
+
+四、编译libid3tab
+五、编译libmad
+六、编译madplay
+
+制作播放器
+
+一、安装madplay
+
+madplay -o wav:- 1.mp3 | aplay

@@ -1,0 +1,10 @@
+audio_null.o: audio_null.c config.h global.h /usr/local/include/mad.h \
+ audio.h
+
+config.h:
+
+global.h:
+
+/usr/local/include/mad.h:
+
+audio.h:
